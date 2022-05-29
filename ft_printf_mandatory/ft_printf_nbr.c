@@ -18,7 +18,7 @@ static int print_di(long nbr)
 
 	ret = ft_checkdigit(nbr, 10);
 	if (nbr < 0)
-	    ret ++;
+		ret ++;
 	ft_putnbr_base_fd(nbr, 10, 0, 1);
 	return (ret);
 }
